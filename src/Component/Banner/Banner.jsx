@@ -18,8 +18,7 @@ const Banner = () => {
 
   return (
     <div className="max-h-[600px]">
-      <Text />
-      {/* <Particles
+      <Particles
       
         id="tsparticles"
         init={particlesInit}
@@ -93,7 +92,7 @@ const Banner = () => {
           },
           detectRetina: true,
         }}
-      /> */}
+      />
     </div>
   );
 };

@@ -13,8 +13,8 @@ const Navbar = () => {
   );
      
      return (
-       <div className="max-w-screen-2xl mx-auto">
-         <div className="navbar bg-base-100 ">
+       <div className="max-w-screen-2xl mx-auto mt-10 relative">
+         <div className="navbar  fixed">
            <div className="navbar-start">
              <div className="dropdown">
                <div
@@ -51,9 +51,6 @@ const Navbar = () => {
            <div className="navbar-center hidden lg:flex">
              <ul className="menu menu-horizontal px-1">{navbar}</ul>
            </div>
-           {/* <div className="navbar-end">
-             <a className="btn">Button</a>
-           </div> */}
          </div>
        </div>
      );

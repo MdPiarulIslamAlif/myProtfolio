@@ -1,5 +1,7 @@
 import image from "../../assets/profile-image/alif-removebg-preview.png";
 import { Typewriter } from "react-simple-typewriter";
+import {motion} from 'framer-motion'
+import '../../../src/app.css'
 
 const Text = () => {
   return (
@@ -28,8 +30,11 @@ const Text = () => {
           />
         </span>
       </h1>
-      <div className="">
-        <img className="" src={image} alt="" />
+      <div
+     
+
+      >
+        <img className="animate border-3 border-red-400 border-solid rounded-full" src={image} alt="" />
       </div>
     </div>
   );
