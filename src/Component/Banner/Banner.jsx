@@ -1,3 +1,5 @@
+
+
 import { useCallback } from "react";
 import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
@@ -15,9 +17,10 @@ const Banner = () => {
          }, []);
 
   return (
-    <div className="relative">
+    <div className="max-h-[600px]">
       <Text />
-      <Particles
+      {/* <Particles
+      
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -90,7 +93,7 @@ const Banner = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
     </div>
   );
 };

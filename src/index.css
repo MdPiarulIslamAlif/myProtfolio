@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* google free font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Nova+Square&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;800;900&display=swap');
