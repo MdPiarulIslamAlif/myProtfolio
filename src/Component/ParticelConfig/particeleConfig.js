@@ -3,7 +3,7 @@ const particeleConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#000",
+      value: "#90bc21",
     },
     image: "",
     position: "",
@@ -15,7 +15,7 @@ const particeleConfig = {
     composite: "destination-out",
     cover: {
       color: {
-        value: "#fff",
+        value: "#000000",
       },
       opacity: 1,
     },

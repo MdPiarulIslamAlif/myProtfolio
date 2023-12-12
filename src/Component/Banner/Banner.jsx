@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim";
+import Text from "../Text/Text";
 
 const Banner = () => {
          const particlesInit = useCallback(async (engine) => {
@@ -14,7 +15,8 @@ const Banner = () => {
          }, []);
 
   return (
-    <div>
+    <div className="relative">
+      <Text />
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -22,7 +24,7 @@ const Banner = () => {
         options={{
           background: {
             color: {
-              value: "#ffffff",
+              value: "#",
             },
           },
           fpsLimit: 120,
@@ -54,7 +56,7 @@ const Banner = () => {
             },
             links: {
               color: "#ea580c",
-              distance: 150,
+              distance: 180,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -66,13 +68,13 @@ const Banner = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 3,
+              speed: 2,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 600,
               },
               value: 80,
             },
