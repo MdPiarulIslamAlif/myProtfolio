@@ -13,10 +13,10 @@ const Navbar = () => {
   );
      
      return (
-       <div className="max-w-screen-2xl mx-auto mt-10 relative">
-         <div className="navbar  fixed">
+       <div className="max-w-screen-2xl mx-auto mt-10">
+         <div className="navbar">
            <div className="navbar-start">
-             <div className="dropdown">
+             <div className="dropdown ">
                <div
                  tabIndex={0}
                  role="button"
@@ -41,7 +41,7 @@ const Navbar = () => {
                  {navbar}
                </ul>
              </div>
-             <div className="avatar flex items-center gap-4">
+             <div className="avatar flex ml-[340px] lg:ml-0 md:ml-0 items-center gap-4">
                <div className="w-20 rounded-full">
                  <img src={profile} />
                </div>

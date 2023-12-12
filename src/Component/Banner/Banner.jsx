@@ -4,7 +4,6 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim";
-import Text from "../Text/Text";
 
 const Banner = () => {
          const particlesInit = useCallback(async (engine) => {
@@ -17,7 +16,7 @@ const Banner = () => {
          }, []);
 
   return (
-    <div className="max-h-[600px]">
+    <div className="max-h-screen mb-24">
       <Particles
       
         id="tsparticles"
